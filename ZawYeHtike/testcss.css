@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom-style: inset;
+    background-color: white;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.navbar a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.navbar a:hover,.navbar a.active{
+    color: #713EDA;
+    text-decoration: none;
+}
+.home{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    padding: 0 10%;
+}
+.homecontet{
+    max-width: 750px;
+}
+.homecontet h3{
+    font-size: 48px;
+}
+.homecontet h1{
+    font-size: 60px;
+}
+.socialmedia{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.socialmedia a{
+    font-size: 40px;
+    
+}
+.cv{
+    margin-top: 20px;
+}
+.cv a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #713EDA;
+}
+.cv button{
+    width: 100px;
+    /* height: 20px; */
+    border-radius: 5px;
+    border-color: #713EDA;
+    background-color: transparent;
+}
+.photo{
+    margin-left: 200px;
+}
+.photo img{
+    width: 300px;
+    height: 400px;
+    
+}
+.about{
+    display: flex;
+    /* align-items: center; */
+    padding: 0 10%;
+    margin-top: 150px;
+    height: 70vh;
+}
+.schphoto{
+    align-items: center;
+}
+.schphoto img{
+    width: 400px;
+    height: 200px;
+
+}
+.aboutme{
+    max-width: 700px;
+    margin-left: 170px;
+}
+.aboutme h3{
+    font-size: 50px;
+}
+.aboutme h1{
+    font-size: 60px;
+}
+.aboutme p{
+    font-size: 20px;
+}
+.moreabout a{
+    text-decoration: none;
+    font-size: larger;
+    color: #713EDA;
+    font-weight: bold;
+}
+.moreabout{
+    margin-top: 10px;
+    width: 150px;  
+    background-color: white;
+    border: 3px solid #713EDA;
+    border-radius: 10px;
+}
+.project{
+    margin-top: 10px;
+    display: inline-flex;
+    height: 85vh;
+    padding: 0 10%;
+    margin-left: 30px;
+}
+.card{
+  margin-left: 30px;
+  background-color: #713EDA;
+}
+.card-header{
+    background-color: #713EDA;
+}
+.skill{
+    display: block;
+    height: 115vh;
+    padding: 0 10%;
+}
+.h h1{
+    margin-left: 500px;
+}
+.ha{
+    background-color: #713EDA;
+}
+.ha h1{
+    margin-left: 600px;
+    color: white;
+    font-family: fantasy;
+    /* position: absolute; */
+    /* writing-mode: vertical-rl; */
+}
+.contact{
+    height: 30vh;
+    background-color: #713EDA;
+    display: flex;
+}
+.btname{
+    width: 350px;
+}
+.btname h3{
+    position: absolute;
+    writing-mode: vertical-rl;
+    color: white;
+    margin-top: 10px;
+    font-size: 85px;
+}
+.contact1{
+    display: block;
+}
+.phone i{
+    color: white;
+    font-size: 30px;
+}
+.contact a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    /* padding-bottom: 10px; */
+}
+.phone{
+    margin-top: 20px;
+}
+.phone a:hover{
+    text-decoration: none;
+    color: white;
+    /* margin-left: 50px; */
+}
+.contact1{
+    width: 500px;
+    margin-left: 250px;
+}
+.thanks h3{
+    color: white;   
+    font-size: 80px;
+}
+
+
+
